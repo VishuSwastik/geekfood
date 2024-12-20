@@ -1,0 +1,63 @@
+.first_sec {
+    background-image: url(../assets/hall.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.content {
+    padding-top: 200px;
+    max-width: 600px; 
+    color: white; 
+}
+
+.content h1 {
+    margin: 0; 
+    padding-left:  150px;
+    font-size: 3rem; 
+}
+.content .food {
+    padding-left: 170px;
+    padding-top: 10px;
+    color: rgb(249, 89, 89);
+}
+
+.content  p {
+    margin: 1rem 0; 
+    padding-left:  100px;
+    font-size: 1.2rem; 
+    padding-top: 30px;
+}
+
+.content .btn {
+   margin-left: 170px;
+    margin-right: 1rem; 
+    padding: 0.6em 1.2em; 
+    border-radius: 8px;
+    border: none; 
+    background-color: rgb(249, 89, 89);
+    color: white;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+.content .btun {
+    margin-right: 1rem; 
+    padding: 0.6em 1.2em; 
+    border-radius: 8px;
+    border: none; 
+    background-color:white; 
+    color:  rgb(249, 89, 89);;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.content .btn:hover {
+    background-color: #0056b3; 
+}

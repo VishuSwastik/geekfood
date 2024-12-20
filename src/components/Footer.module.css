@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    padding: 20px;
+    background-color: rgb(238, 239, 239);
+    height: 400px;
+}
+
+.footer .logo_f {
+    display: flex;
+    padding-left:45%;
+}
+
+.footer .logo_f  img {
+    height: 40px;
+    width: 40px;
+}
+
+.footer .logo_f  p {
+    font-size: 20px;
+    padding-bottom: 7px;
+    color: #0ba453;
+}
+
+.footer .para_div p {
+    font-size: 17px;
+    color: #717171;
+    text-align: center;
+}
+
+.footer .about_list {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    padding-left:32% ;
+}
+
+.footer .about_list li {
+    font-size: 15px;
+    color: #3c3c3c;
+}
+
+.footer .social {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding-left: 40%;
+}
+
+
+.footer .social li img {
+    height: 25px;
+    width: 25px;
+}

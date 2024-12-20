@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0.5rem;
+    background-color: #010438; 
+    position: relative; 
+    height: 70px;
+
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 1000; 
+}
+
+.uperLogo {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    margin-left: 100px;
+    padding-top: 10px;
+
+}
+
+.logo_ggk {
+    height: 40px; 
+    width: 40px;
+    padding-top: 15px;
+    padding-left: 40px;
+
+     
+}
+
+p {
+    position: relative;
+    font-size: 25px;
+    bottom: 12px;
+    color: white;
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+.navList li:first-child{
+    color: #0056b3;
+}
+
+.navList li:hover {
+    color: #0056b3;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 100px;
+  
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
